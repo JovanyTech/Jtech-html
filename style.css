@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+::selection {
+  background-color: #fff;
+  color: #008cff;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+nav img {
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+nav ul {
+  display: flex;
+}
+nav ul li:last-of-type a {
+  border-left: 2px solid #fff;
+}
+nav a {
+  border-right: 2px solid #fff;
+
+  padding: 15px;
+}
+nav {
+  background-color: #222;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  margin-bottom: 10px;
+}
+body {
+  font-family: "Changa";
+  background-color: #008cff;
+  color: #fff;
+}
+a img {
+  max-width: 100%;
+  padding: 0 300px 0 30px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+table th,
+table td {
+  padding: 5px;
+  border-bottom: 3px solid #fff;
+  border-right: 1px solid #fff;
+  border-left: 1px solid #fff;
+  border-radius: 5px;
+}
+strong,
+h1,
+h2,
+h3 {
+  background-color: yellow;
+  color: black;
+  border-radius: 10px;
+  padding: 0 20px;
+  margin: 20px 20px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+select {
+  outline: none;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+  border: 3px solid #fff;
+  padding: 20px;
+  width: 500px;
+  margin: 10px;
+  border-radius: 45px;
+  background-color: cornflowerblue;
+  transition: 0.3s;
+  font-weight: bold;
+}
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+input[type="password"]::placeholder,
+select {
+  color: #fff;
+}
+button,
+input[type="submit"],
+input[type="reset"] {
+  background-color: crimson;
+  border: 3px solid #fff;
+
+  color: #fff;
+  border-radius: 45px;
+  padding: 10px 40px;
+  margin: 20px 20px;
+}
